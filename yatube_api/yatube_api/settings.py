@@ -1,6 +1,5 @@
 import os
 from datetime import timedelta
-from typing import List
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -8,7 +7,7 @@ SECRET_KEY = 'hhz7l-ltdismtf@bzyz+rple7*s*w$jak%whj@(@u0eok^f9k4'
 
 DEBUG = True
 
-ALLOWED_HOSTS:list = []
+ALLOWED_HOSTS: list = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
